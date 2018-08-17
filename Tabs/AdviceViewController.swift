@@ -10,6 +10,9 @@ import UIKit
 
 class AdviceViewController: UIViewController {
 
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
