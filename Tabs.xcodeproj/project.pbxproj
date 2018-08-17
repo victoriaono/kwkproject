@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1807BA4E2125B7DD0008744B /* Crimson_Text in Resources */ = {isa = PBXBuildFile; fileRef = 1807BA4D2125B7DD0008744B /* Crimson_Text */; };
-		1807BA502125B8DB0008744B /* Cinzel in Resources */ = {isa = PBXBuildFile; fileRef = 1807BA4F2125B8DA0008744B /* Cinzel */; };
 		1807BA512125DF9E0008744B /* EdgeInsetLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1807BA4B2124ADD00008744B /* EdgeInsetLabel.swift */; };
 		18BA19A021246A1700F44F3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BA199F21246A1700F44F3C /* AppDelegate.swift */; };
 		18BA19A521246A1700F44F3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BA19A321246A1700F44F3C /* Main.storyboard */; };
@@ -23,6 +21,7 @@
 		18BA19D721248CF300F44F3C /* ResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BA19D621248CF300F44F3C /* ResourcesViewController.swift */; };
 		18BA19D921248D0E00F44F3C /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BA19D821248D0E00F44F3C /* MapViewController.swift */; };
 		18BA19DD2124919700F44F3C /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BA19DC2124919700F44F3C /* RoundButton.swift */; };
+		C2E252BC21268FDC0018FDAA /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = C2E252BB21268FDC0018FDAA /* fonts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,8 +43,6 @@
 
 /* Begin PBXFileReference section */
 		1807BA4B2124ADD00008744B /* EdgeInsetLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdgeInsetLabel.swift; sourceTree = "<group>"; };
-		1807BA4D2125B7DD0008744B /* Crimson_Text */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Crimson_Text; path = ../../../../../Downloads/Crimson_Text; sourceTree = "<group>"; };
-		1807BA4F2125B8DA0008744B /* Cinzel */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Cinzel; path = ../../../../../Downloads/Cinzel; sourceTree = "<group>"; };
 		18BA199C21246A1700F44F3C /* Tabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18BA199F21246A1700F44F3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18BA19A421246A1700F44F3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -65,6 +62,7 @@
 		18BA19D621248CF300F44F3C /* ResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesViewController.swift; sourceTree = "<group>"; };
 		18BA19D821248D0E00F44F3C /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		18BA19DC2124919700F44F3C /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		C2E252BB21268FDC0018FDAA /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,8 +126,7 @@
 				18BA19D821248D0E00F44F3C /* MapViewController.swift */,
 				18BA19DC2124919700F44F3C /* RoundButton.swift */,
 				1807BA4B2124ADD00008744B /* EdgeInsetLabel.swift */,
-				1807BA4F2125B8DA0008744B /* Cinzel */,
-				1807BA4D2125B7DD0008744B /* Crimson_Text */,
+				C2E252BB21268FDC0018FDAA /* fonts */,
 			);
 			path = Tabs;
 			sourceTree = "<group>";
@@ -256,11 +253,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1807BA502125B8DB0008744B /* Cinzel in Resources */,
 				18BA19AD21246A1900F44F3C /* LaunchScreen.storyboard in Resources */,
 				18BA19AA21246A1900F44F3C /* Assets.xcassets in Resources */,
+				C2E252BC21268FDC0018FDAA /* fonts in Resources */,
 				18BA19A521246A1700F44F3C /* Main.storyboard in Resources */,
-				1807BA4E2125B7DD0008744B /* Crimson_Text in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
